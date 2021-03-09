@@ -34,7 +34,6 @@ void printList(struct node* headRef){
 
 void reverseList(struct node** headRef){
     struct node* temp=*headRef;
-    int flag=1;//keeps track of the head node of the list
     struct node* nextNode=NULL;
     struct node* prevNode=NULL;
 
